@@ -3,7 +3,7 @@ package com.fang.test;
 import org.junit.Test;
 
 import java.util.HashMap;
-import java.util.Objects;
+
 
 /**
  * @Auther: fang
@@ -46,7 +46,7 @@ public class Person {
 
     @Test
     public void test1(){
-        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+        HashMap<Object, Object> objectObjectHashMap = new HashMap<Object,Object>();
         objectObjectHashMap.put("张三",15);
     }
 }
